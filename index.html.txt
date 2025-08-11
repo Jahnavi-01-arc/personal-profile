@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jahnavi Maddi - Personal Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Jahnavi Maddi" class="profile-pic" />
+    <h1>Jahnavi Maddi</h1>
+    <p>Web Developer & Designer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>This is a brief introduction about myself from my Figma design.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js & Express</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Maddi Jahnavi" required />
+      <input type="email" placeholder="jahnavimaddi2701@gmail.com required />
+      <textarea placeholder="This is a brief introduction about myself from my Figma design" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
